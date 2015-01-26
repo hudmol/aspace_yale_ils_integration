@@ -1,4 +1,4 @@
-class InstanceILS < Sequel::Model(:instance_ils)
+class InstanceIls < Sequel::Model(:instance_ils)
   include ASModel
   corresponds_to JSONModel(:instance_ils)
 

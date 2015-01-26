@@ -1,1 +1,1 @@
-Instance.include(InstanceILS)
+Instance.include(InstanceIlss)

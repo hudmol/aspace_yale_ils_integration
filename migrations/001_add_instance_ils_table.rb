@@ -18,7 +18,7 @@ Sequel.migration do
     end
 
 
-    alter_table(:material_types) do
+    alter_table(:instance_ils) do
       add_foreign_key([:instance_id], :instance, :key => :id)
     end
 
